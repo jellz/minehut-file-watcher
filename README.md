@@ -1,2 +1,2 @@
 # minehut-file-watcher
-Watch files locally then save them to your Minehut server automatically
+Watch files locally then push them to your Minehut server automatically
