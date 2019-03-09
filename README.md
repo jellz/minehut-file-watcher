@@ -35,9 +35,11 @@ You need your Minehut auth token to authenticate with Minehut. When you type in 
 To get your Minehut auth token, follow these steps:
 1. Login to [minehut.com](https://minehut.com)
 2. Press F12 on your keyboard to open DevTools (should be the same for Firefox, Chromium, Edge) - I'm not sure the OS X way to do it on each browser you'll have to look it up yourself
-3. You should see a window similar to this: ![DevTools](https://i.imgur.com/W06hByW.png)
+3. You should see a window similar to this:  
+![DevTools](https://i.imgur.com/W06hByW.png)
 4. Click on the two right arrows at the top and click 'Application' if it is not in the top bar already
-5. Click Storage -> Local Storage -> https://minehut.com on the left-hand panel. You should see something like this: ![Local storage](https://i.imgur.com/ugGp4NR.png)
+5. Click Storage -> Local Storage -> https://minehut.com on the left-hand panel. You should see something like this:  
+![Local storage](https://i.imgur.com/ugGp4NR.png)
 6. Copy the value of the `auth_token` key and set it on your computer using the command `mh-watch --setauthtoken=YOUR_AUTH_TOKEN`.
 
 ### Getting your server ID
