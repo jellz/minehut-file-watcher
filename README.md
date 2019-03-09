@@ -6,7 +6,6 @@
 [![GitHub](https://img.shields.io/github/license/jellz/minehut-file-watcher.svg?style=flat-square)](https://github.com/jellz/minehut-file-watcher)
 [![Discord](https://img.shields.io/discord/395189137981964288.svg?style=flat-square)](https://discord.gg/CdaSWx6)
 
-
 minehut-file-watcher is a simple package that will watch your files and automatically push them to your Minehut server when they are changed. This is great for people writing config files or scripts, as they don't have to copy-and-paste the content from their editor to Minehut's editor, then click Save, then reload in-game. Instead, they can just reload in-game. Nothing more.
 
 ## Getting Started
