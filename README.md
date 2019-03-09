@@ -9,8 +9,6 @@
 
 minehut-file-watcher is a simple package that will watch your files and automatically push them to your Minehut server when they are changed. This is great for people writing config files or scripts, as they don't have to copy-and-paste the content from their editor to Minehut's editor, then click Save, then reload in-game. Instead, they can just reload in-game. Nothing more.
 
-![Demo GIF](https://i.imgur.com/3uBbPlO.gif)
-
 ## Getting Started
 
 > To get started run **`yarn global add minehut-file-watcher`** (or `npm install -g minehut-file-watcher` if you use NPM).
@@ -39,7 +37,7 @@ To get your Minehut auth token, follow these steps:
 2. Press F12 on your keyboard to open DevTools (should be the same for Firefox, Chromium, Edge) - I'm not sure the OS X way to do it on each browser you'll have to look it up yourself
 3. You should see a window similar to this: ![DevTools](https://i.imgur.com/W06hByW.png)
 4. Click on the two right arrows at the top and click 'Application' if it is not in the top bar already
-5. Click Storage -> Local Storage -> https://minehut.com on the left-hand panel. You should see something like this: ![Local storage](https://i.imgur.com/ApwFmND.png)
+5. Click Storage -> Local Storage -> https://minehut.com on the left-hand panel. You should see something like this: ![Local storage](https://i.imgur.com/ugGp4NR.png)
 6. Copy the value of the `auth_token` key and set it on your computer using the command `mh-watch --setauthtoken=YOUR_AUTH_TOKEN`.
 
 ### Getting your server ID
