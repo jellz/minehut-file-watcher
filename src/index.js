@@ -28,6 +28,11 @@ if (argv.setserverid) {
   showHelpCommand = false;
 }
 
+if (argv.getconfig) {
+  console.log(config.store);
+  showHelpCommand = false;
+}
+
 if (argv._.length > 0) {
   if (argv._.length > 1) return console.error('You can only watch one file at a time!'.red);
   if (!config.get('server')) return console.error('You haven\'t set a server ID in config. Run `mh-watch` for help.'.red);
