@@ -35,7 +35,7 @@ if (argv.getconfig) {
 
 if (argv._.length > 0) {
   if (argv._.length > 1) return console.error('You can only watch one file at a time!'.red);
-  if (!config.get('server')) return console.error('You haven\'t set a server ID in config. Run `mh-watch` for help.'.red);
+  if (!config.get('server_id')) return console.error('You haven\'t set a server ID in config. Run `mh-watch` for help.'.red);
   if (!config.get('auth_token')) return console.error('You haven\'t set an auth token in config. Run `mh-watch` for help.'.red);
   if (!argv.minehutpath) return console.error('No Minehut path provided, where am I supposed to send the file?\nExample: mh-watch config.yml --minehutpath=plugins/Essentials/config.yml'.bold.red);
   let remotePath = argv.minehutpath;
