@@ -1,6 +1,6 @@
 {
   "name": "minehut-file-watcher",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Watch files locally then save them to your Minehut server automatically",
   "main": "src/index.js",
   "repository": "git@github.com:jellz/minehut-file-watcher",
