@@ -34,12 +34,19 @@ if (argv.setserver) {
 	if (typeof argv.setserver !== 'string')
 		return console.error('Server name must be a string'.bold.red);
 	(async () => {
-    const res = await fetch(`${MINEHUT_API_BASE}/server/${argv.setserver}?byName=true`);
-    if (!res.ok) throw new HttpError(`Bad response when fetching server ID: ${res.status}`);
-    const json = await res.json();
-    config.set('server_id', json.server._id);
-    console.log(`Set server ID to ${json.server._id} (${json.server.name})`.green);
-  })();
+		const res = await fetch(
+			`${MINEHUT_API_BASE}/server/${argv.setserver}?byName=true`
+		);
+		if (!res.ok)
+			throw new HttpError(
+				`Bad response when fetching server ID: ${res.status}`
+			);
+		const json = await res.json();
+		config.set('server_id', json.server._id);
+		console.log(
+			`Set server ID to ${json.server._id} (${json.server.name})`.green
+		);
+	})();
 	showHelpCommand = false;
 }
 
